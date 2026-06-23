@@ -5,6 +5,7 @@
     --silver:#F5F7FA;
     --primarycolor:#4CAF4F;
     --standardcolor:#18191F;
+    --naturalblack:#263238;
     --greycolor:#E0E0E0;
     --naturalDgrey:#4D4D4D;
 }
@@ -30,6 +31,9 @@
 .font3{
     font-family: inter3;
 }
+.naturalblack{
+    background-color: var(--naturalblack);
+}
 .bgsilver{
     background-color: var(--naturalwhite);
 }
@@ -45,10 +49,12 @@
 .textgreen{
     color: var(--primarycolor);
 }
+.white{
+    color: var(--naturalwhite);
+}
 .textgreen:hover{
     background-color:var(--primarycolor);
-    color: var(--naturalwhite);
-   
+    color: var(--naturalwhite);  
 }
 .bggreen{
     background-color: var(--primarycolor);
