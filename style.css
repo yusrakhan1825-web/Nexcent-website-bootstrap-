@@ -8,6 +8,7 @@
     --naturalblack:#263238;
     --greycolor:#E0E0E0;
     --naturalDgrey:#4D4D4D;
+    --footergrey:rgb(81, 91, 96);
 }
 @font-face {
     font-family: inter;
@@ -36,6 +37,12 @@
 }
 .bgsilver{
     background-color: var(--naturalwhite);
+}
+.footergrey::placeholder{
+color: var(--naturalwhite);
+}
+.footergrey{
+    background-color: var(--footergrey);
 }
 .dgrey{
     color: var(--naturalDgrey);
@@ -81,6 +88,27 @@ color: green;
 font-style: italic;
 }
 
+
+
+/* moblile and small screen */
 @media screen and (max-width:576px) {
-    .size:25px;
+     .mob1 {
+        width: 50%;
+        max-width: 80px; 
+        text-align: center;
+    }
+   .mob2{
+    width: 60%;
+    justify-content: end;
+    padding-top: 20px;
+   }
+   .hero1 img{
+      padding-left: 50px;
+   }
+   .hero1 h1{
+     padding-left: 40px;
+   } 
+   .mob3{
+    
+   }
 }
