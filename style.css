@@ -112,3 +112,39 @@ font-style: italic;
     
    }
 }
+
+/* taplet query medium screens */
+
+@media screen and (min-width:578px) and (max-width:768px) {
+       .mob1 {
+        width: 50%;
+        max-width: 80px; 
+        text-align: center;
+    }
+   .mob2{
+    width: 52%;
+    justify-content: end;
+    padding-top: 20px;
+   }
+   .hero1 img{
+      padding-left: 320px;
+   }
+   .hero1 h1{
+     padding-left: 200px;
+   } 
+   .mob-p{
+    padding-left: 130px;
+   }
+   .mob-4 h2{
+    padding-left: 180px;
+   }
+   .mob-4 p{
+    padding-left: 150px;
+   }
+   .mob-4 img{
+    margin-bottom: 30px;
+   }
+   .mob-5 {
+    max-width: 50%;
+   }
+}
