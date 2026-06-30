@@ -97,8 +97,12 @@ font-style: italic;
         max-width: 80px; 
         text-align: center;
     }
+
+    .mob-p{
+        padding-left: 50px;
+    }
    .mob2{
-    width: 60%;
+    width: 70%;
     justify-content: end;
     padding-top: 20px;
    }
@@ -108,8 +112,21 @@ font-style: italic;
    .hero1 h1{
      padding-left: 40px;
    } 
-   .mob3{
-    
+   .mob6{
+    flex-wrap: wrap;
+   }
+   .hero2 h1{
+    padding-left: 50px;
+   }
+   .hero2 p{
+    padding-left:50px ;
+   }
+   .mob-7 h1{
+     padding-left: 40px;
+   }
+   .mob-5{
+     max-width:150px;
+     max-height: 20px;
    }
 }
 
