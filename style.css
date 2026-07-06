@@ -73,6 +73,7 @@ background-color: var(--silver);
     background-color: var(--primarycolor);
     color: var(--naturalwhite);
     transform: translateY(-2px);
+    border-radius: 50% 10% 50% 10%;
 }
 .bggreen:active{
     background-color: var(--primarycolor);
@@ -92,25 +93,59 @@ font-style: italic;
 
 /* moblile and small screen */
 @media screen and (max-width:576px) {
-     .mob1 {
-        width: 50%;
-        max-width: 80px; 
-        text-align: center;
+    .screen1 .navbar-nav {
+        align-items: center !important;
     }
-   .mob2{
-    width: 60%;
-    justify-content: end;
-    padding-top: 20px;
-   }
-   .hero1 img{
-      padding-left: 50px;
-   }
-   .hero1 h1{
-     padding-left: 40px;
-   } 
-   .mob3{
-    
-   }
+    .screen1 .cute{
+        display: flex !important;
+        justify-content: center !important;
+        width: 100% !important;
+    }
+    .screen2 img{
+        display: inline-block !important;
+        max-width: 100% !important;
+        height: auto !important;
+    }
+    .screen2 .col-10 {
+        text-align: center !important;
+        width: 100% !important;
+        max-width: 100% !important;
+        margin: 0 auto !important;
+    }
+    .screen2 h1{
+        width: 100% !important;
+        text-align: center !important;
+    }
+    .screen2 p{
+        text-align: center !important;
+        width: 100% !important;
+    }
+    .screen5 .button-custom,
+    .screen2 .button-custom {
+      display: flex !important;
+  justify-content: center !important;
+  width: 100% !important;
+}
+  }
+.screen5 button,
+  .screen2 button{
+    width: 40%; 
+  padding: 12px 24px;
+  }
+  .screen3 {
+    flex-wrap: wrap;
+  }
+  .screen5 h1{
+    text-align: center !important;
+  }
+  .screen6 .col img {
+   width: 100% !important;
+  }
+  
+  .screen6 col{
+    text-align: center !important;
+
+  }
 }
 
 /* taplet query medium screens */
