@@ -93,93 +93,67 @@ font-style: italic;
 
 /* moblile and small screen */
 @media screen and (max-width:576px) {
-    .screen1 .navbar-nav {
-        align-items: center !important;
-    }
-    .screen1 .cute{
-        display: flex !important;
-        justify-content: center !important;
-        width: 100% !important;
-    }
-    .screen2 img{
-        display: inline-block !important;
-        max-width: 100% !important;
-        height: auto !important;
-    }
-    .screen2 .col-10 {
-        text-align: center !important;
-        width: 100% !important;
-        max-width: 100% !important;
-        margin: 0 auto !important;
-    }
-    .screen2 h1{
-        width: 100% !important;
-        text-align: center !important;
-    }
-    .screen2 p{
-        text-align: center !important;
-        width: 100% !important;
-    }
-    .screen5 .button-custom,
-    .screen2 .button-custom {
-      display: flex !important;
-  justify-content: center !important;
-  width: 100% !important;
-}
-  }
-.screen5 button,
-  .screen2 button{
-    width: 40%; 
-  padding: 12px 24px;
-  }
-  .screen3 {
-    flex-wrap: wrap;
-  }
-  .screen5 h1{
+     .screen1 .navbar-nav {
     text-align: center !important;
+    gap: 15px !important;    
+    margin-top: 15px !important;
   }
-  .screen6 .col img {
-   width: 100% !important;
-  }
-  
-  .screen6 col{
-    text-align: center !important;
+    .screen1 .cute {
+    display: flex !important;
+    justify-content: center !important;
+    width: 100% !important;
+    }
+    
 
+.screen2 img{
+     display: inline-block !important; /* Isse text-align: center ispar kaam karega */
+    max-width: 100% !important;       /* Image screen se bahar na nikle */
+    height: auto !important;          /* Image ki shape kharab na ho */
+    margin: 0 auto !important; 
+    
+}
+ /* .screen3 .col-10,
+ .screen2 .col-10, 
+  .screen2 .col {
+    width: 100% !important;     /* Mobile par box ko 100% choda karein */
+    max-width: 100% !important; /* Kisi bhi kism ki Bootstrap restriction ko khatam karein */
+    text-align: center !important; /* Apne andar ki image ko center align karein */
+    margin: 0 auto !important;   /* Box ko screen ke center mein rakhein */
+  } */
+  .screen3 .button-custom,
+   .screen2 .button-custom {
+    display: flex !important;
+    justify-content: center !important; /* Yeh ab 100% lag jayega kyunki parent ab full width hai */
+    width: 100% !important;
   }
+  .screen3 h2,
+  .screen2 h1 {
+    text-align: center !important;  /* Text ko bilkul beech me layega */
+    width: 100% !important;         /* Heading ko poori width dega taaki center hone ka space mile */
+    font-size: 2rem !important;     /* (Optional) Mobile screen ke hisab se text thoda chhota karne ke liye */
+    margin-bottom: 10px !important; /* Nichli heading se thoda gap rakhne ke liye */
+  }
+   
+  .screen2 h2 {
+    text-align: center !important;
+    width: 100% !important;
+  }
+  .screen3 p,
+   .screen2 p {
+    font-size: 1rem !important;      /* Mobile ke hisab se paragraph size perfect rahega */
+    padding: 0 10px !important;      /* Left aur right se thodi jagah chhoot jayegi */
+    margin-bottom: 20px !important;  /* Button se thoda faasla rakhne ke liye */
+  }
+   .screen4 h1,
+  .screen3 h1{
+    text-align: center !important;
+    width: 100% !important;
+  }
+   
 }
 
 /* taplet query medium screens */
 
 @media screen and (min-width:578px) and (max-width:768px) {
-       .mob1 {
-        width: 50%;
-        max-width: 80px; 
-        text-align: center;
-    }
-   .mob2{
-    width: 52%;
-    justify-content: end;
-    padding-top: 20px;
-   }
-   .hero1 img{
-      padding-left: 320px;
-   }
-   .hero1 h1{
-     padding-left: 200px;
-   } 
-   .mob-p{
-    padding-left: 130px;
-   }
-   .mob-4 h2{
-    padding-left: 180px;
-   }
-   .mob-4 p{
-    padding-left: 150px;
-   }
-   .mob-4 img{
-    margin-bottom: 30px;
-   }
-   .mob-5 {
-    max-width: 50%;
-   }
+       
 }
